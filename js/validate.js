@@ -2,7 +2,7 @@
 let submitForm = document.querySelector('#validateForm'),
     fullName = document.querySelector('#fullName'),
     email = document.querySelector('#email'),
-    phoneNumber = document.querySelector('#phoneNumber'),
+    phone = document.querySelector('#phoneNumber'),
     gender = document.querySelector('#gender'),
     password = document.querySelector('#password');
 
@@ -23,9 +23,11 @@ let submitForm = document.querySelector('#validateForm'),
     function validateForm(e) {
         required(fullName, e);
         required(email, e);
-        required(phoneNumber, e);
+        required(phone, e);
         required(gender, e);
         required(password, e);
+        emailValidation(e);
+        passwordValidation(e);
 
         return true;
     }
@@ -34,6 +36,31 @@ let submitForm = document.querySelector('#validateForm'),
     //email validation
     function emailValidation(event) {
         let emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if (!email.value.match(emailRegex)) {
+            email.nextElementSibling.innerHTML = 'Please enter a valid email address';
+            event.preventDefault();
+            return false;
+        } else {
+            email.nextElementSibling.innerHTML = '';
+            return true;
+        }
+    }
+
+    //password validation
+    function passwordValidation(event) {
+        let pwdRegex = /^[a-z0-9]+$/i;
+        if (!password.value.match(pwdRegex)) {
+            password.nextElementSibling.innerHTML = 'Password must contain letters or numbers only';
+            event.preventDefault();
+            return false;
+        } else if (!(password.value.length >= 8)) {
+            password.nextElementSibling.innerHTML = 'Password length must be longer than 8';
+            event.preventDefault();
+            return false;
+        } else {
+            password.nextElementSibling.innerHTML  = '';
+            return true;
+        }
     }
 
     submitForm.addEventListener('submit', validateForm);
