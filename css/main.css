@@ -14,7 +14,109 @@ body {
     color: red;
 }
 
+a, ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* to be modified */
+.logo a {
+    color: #ff00bf;
+    font-size: 2.75rem;
+    font-weight: bolder;
+    align-self: center;
+}
+
+
+
 /* canvas */
-.bg-pry {
-    background-color: lavender;
+.bg-main {
+    background-color: honeydew;
+}
+
+.border-pry {
+    border-bottom: 1px solid grey;
+}
+
+.border-round {
+    border-radius: .5rem;
+    border: 1px solid grey;
+    padding: .8rem;
+}
+
+.border-main {
+    border-left: 1px solid grey;
+}
+
+.text-bold {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+
+/* positioning */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.justify-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* spacing  */
+.pt-1 {
+    padding-top: .25rem;
+}
+
+.p-1 {
+    padding: .25rem;
+}
+
+.p-6 {
+    padding: 1.75rem;
+}
+
+.px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.mt-1 {
+    margin-top: .25rem;
+}
+
+.m-1 {
+    margin: .25rem;
+}
+
+.mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.w-1 {
+    width: 100vw;
+}
+
+.w-2 {
+    width: 50vw;
 }
