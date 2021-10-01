@@ -52,9 +52,17 @@ a, ul {
     font-size: 1rem;
 }
 
+.text-lgr {
+    font-size: 5rem;
+}
+
 .text-bold {
     font-size: 1.15rem;
     font-weight: 600;
+}
+
+.btn-pry {
+    background-color: #8b37ff;
 }
 
 
@@ -81,9 +89,18 @@ a, ul {
     align-items: center;
 }
 
+.justify-right {
+    justify-content: end;
+    align-items: center;
+}
+
 /* spacing  */
 .pt-1 {
     padding-top: .25rem;
+}
+
+.ml-4 {
+    margin-left: 4rem;
 }
 
 .p-1 {
@@ -125,6 +142,11 @@ a, ul {
     margin-right: 2rem;
 }
 
+.my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
 .w-1 {
     width: 100vw;
 }
@@ -140,4 +162,12 @@ a, ul {
 
 .search-box {
     width: 20rem;
+}
+
+main {
+    border: 1px solid red;
+}
+
+.section_hero {
+    border: 1px solid green;
 }
