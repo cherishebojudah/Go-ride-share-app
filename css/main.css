@@ -31,7 +31,7 @@ a, ul {
 
 /* canvas */
 .bg-main {
-    background-color: honeydew;
+    background-color: #ffffff;
 }
 
 .border-pry {
@@ -44,6 +44,10 @@ a, ul {
     padding: .8rem;
 }
 
+.border-rnd-right {
+    border-top-right-radius: 50%;
+}
+
 .border-main {
     border-left: 1px solid lightgrey;
 }
@@ -53,7 +57,7 @@ a, ul {
 }
 
 .text-lgr {
-    font-size: 5rem;
+    font-size: 5.2rem;
 }
 
 .text-bold {
@@ -61,8 +65,26 @@ a, ul {
     font-weight: 600;
 }
 
+.text-bolder {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
 .btn-pry {
     background-color: #8b37ff;
+}
+
+.btn {
+    border: 1px solid #8b37ff;
+    padding: 1.1rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+
 }
 
 
@@ -99,12 +121,20 @@ a, ul {
     padding-top: .25rem;
 }
 
+.ml-1 {
+    margin-left: .25rem;
+}
+
 .ml-4 {
     margin-left: 4rem;
 }
 
 .p-1 {
     padding: .25rem;
+}
+
+.p-4 {
+    padding: 1rem;
 }
 
 .p-7 {
@@ -125,6 +155,10 @@ a, ul {
     margin-top: .25rem;
 }
 
+.mt-10 {
+    margin-top: 2.5rem;
+}
+
 .m-1 {
     margin: .25rem;
 }
@@ -134,7 +168,7 @@ a, ul {
 }
 
 .ml-2 {
-    margin-left: 1.75rem;
+    margin-left: .5rem;
 }
 
 .mx-8 {
@@ -155,6 +189,18 @@ a, ul {
     width: 50vw;
 }
 
+.w-4 {
+    width: 25vw;
+}
+
+.w-40 {
+    width: 40vw;
+}
+
+.w-60 {
+    width: 60vw;
+}
+
 
 
 
@@ -162,12 +208,4 @@ a, ul {
 
 .search-box {
     width: 20rem;
-}
-
-main {
-    border: 1px solid red;
-}
-
-.section_hero {
-    border: 1px solid green;
 }
