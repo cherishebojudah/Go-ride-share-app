@@ -19,6 +19,11 @@ a, ul {
     list-style-type: none;
 }
 
+.section_three img {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
 /* to be modified */
 .logo a {
     color: #ff00bf;
@@ -116,6 +121,10 @@ a, ul {
     align-items: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* spacing  */
 .pt-1 {
     padding-top: .25rem;
@@ -127,6 +136,10 @@ a, ul {
 
 .ml-4 {
     margin-left: 4rem;
+}
+
+.mb-5 {
+    margin-bottom: 1.25rem;
 }
 
 .p-1 {
