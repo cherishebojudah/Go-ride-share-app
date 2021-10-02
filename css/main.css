@@ -17,6 +17,7 @@ body {
 a, ul {
     text-decoration: none;
     list-style-type: none;
+    color: #000000;
 }
 
 .section_three img {
@@ -27,8 +28,8 @@ a, ul {
 .card {
     width: 80%;
     height: 20vw;
-    border: 1px solid red;
     border-radius: .75rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 /* to be modified */
@@ -54,6 +55,10 @@ a, ul {
     border-bottom: 1px solid lightgrey;
 }
 
+.bg-blue {
+    background-color: #2B1B81;
+}
+
 .border-round {
     border-radius: .5rem;
     border: 1px solid grey;
@@ -75,6 +80,10 @@ a, ul {
 
 .text-small {
     font-size: .85rem;
+}
+
+.text-medium {
+    font-size: 1.35rem;
 }
 
 .text-lg {
@@ -202,6 +211,9 @@ a, ul {
     padding-right: 4rem;
 }
 
+.pl-10 {
+    padding-right: 2.5rem;
+}
 .mt-1 {
     margin-top: .25rem;
 }
@@ -220,6 +232,10 @@ a, ul {
 
 .ml-2 {
     margin-left: .5rem;
+}
+
+.ml-4 {
+    padding-left: 1rem;
 }
 
 .mx-8 {
