@@ -33,6 +33,7 @@ a, ul {
 }
 
 /* to be modified */
+.go-business,
 .logo a {
     color: #ff00bf;
     font-size: 2.75rem;
@@ -59,6 +60,10 @@ a, ul {
     background-color: #2B1B81;
 }
 
+.bg-footer {
+    background-color: #f2f2f8;
+}
+
 .border-round {
     border-radius: .5rem;
     border: 1px solid grey;
@@ -67,6 +72,10 @@ a, ul {
 
 .border-rnd-right {
     border-top-right-radius: 50%;
+}
+
+.border-rnd-left {
+    border-top-left-radius: 50%;
 }
 
 .border-main {
@@ -100,6 +109,11 @@ a, ul {
 }
 
 .bold-font {
+    font-weight: bold;
+}
+
+.bolder-font {
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -171,6 +185,10 @@ a, ul {
     margin-left: 4rem;
 }
 
+.mb-3 {
+    margin-bottom: .75rem;
+}
+
 .mb-5 {
     margin-bottom: 1.25rem;
 }
@@ -212,6 +230,10 @@ a, ul {
 }
 
 .pl-10 {
+    padding-right: 2.5rem;
+}
+
+.pr-10 {
     padding-right: 2.5rem;
 }
 .mt-1 {
