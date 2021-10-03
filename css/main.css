@@ -87,6 +87,10 @@ a, ul {
     border-left: 1px solid lightgrey;
 }
 
+.text-light {
+    opacity: 0.5;
+}
+
 .text-spaced {
     line-height: 1.4;
     font-stretch: expanded;
