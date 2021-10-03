@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.error-block {
+    font-size: 0.5rem;
+    color: red;
+}
+
+input {
+   width: 80%; 
+}
+
+
+/* canvas */
+
+.bg-main {
+    background-color: #FFE1E9;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+/* positioning */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* spacing */
+.mb-5 {
+    margin-bottom: 1.25rem;
+}
+
+.p-16 {
+    padding: 4rem;
+}
+
+.w-3 {
+    width: 30vw;
+}

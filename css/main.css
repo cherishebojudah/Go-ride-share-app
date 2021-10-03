@@ -41,6 +41,11 @@ a, ul {
     align-self: center;
 }
 
+.love {
+    color: #ff00bf;
+    font-weight: bold;
+}
+
 
 
 /* canvas */
@@ -289,8 +294,6 @@ a, ul {
 .w-60 {
     width: 60vw;
 }
-
-
 
 
 /* delete later */
