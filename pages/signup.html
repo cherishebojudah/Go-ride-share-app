@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="/css/auth.css">
     <title>Sign up with go!</title>
 </head>
-<body class="bg-main flex  justify-center">
-    <form action="#" class="bg-white p-16 w-3" id="validateForm">
-        <div class="flex flex-column mb-5">
+<body class="bg-main flex justify-center">
+    <form action="#" class="bg-white p-4 w-3 flex justify-center border-rnd-shadow" id="validateForm">
+        <div class="div-form flex flex-column mb-5 p-4">
             <div class="flex flex-column mb-5">
                 <label for="fullName" class="">Full Name:</label>
                 <input type="text" class="" placeholder="Enter full name" id="fullName">
@@ -18,7 +18,7 @@
 
             <div class="flex flex-column mb-5">
                 <label for="phone" class="">Email address:</label>
-                <input type="text" class="" placeholder="please enter your email" id="email">
+                <input type="text" class="" placeholder="Enter your email" id="email">
                 <span class="error-block"></span>
             </div>
 
@@ -51,7 +51,8 @@
             </div>
 
             <div class="">
-                <button type="submit" class="btn">Submit</button>
+                <button type="submit" class="btn">Sign up</button>
+                <p>Already have an account? <a href="/pages/login.html">Log in</a> instead </p>
             </div>
         </div>
     </form>

@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <link rel="stylesheet" href="/css/auth.css">
+    <title>Login to your account</title>
 </head>
-<body>
-    <form action="#" id="validateForm">
-        <div>
-            <div class="">
+<body class="bg-main flex justify-center">
+    <form action="#" class="bg-white p-4 w-3 flex justify-center border-rnd-shadow" id="validateForm">
+        <div class="div-form flex flex-column mb-5 p-4">
+            <div class="flex flex-column mb-5">
                 <label for="phone" class="">Email address:</label>
                 <input type="text" class="" placeholder="please enter your email" id="email">
                 <span class="error-block"></span>
             </div>
     
-            <div class="">
+            <div class="mb-5">
                 <label for="password" class="">Password:</label>
                     <input type="password" class="" placeholder="enter password" id="password">
                 <span class="error-block"></span>
             </div>
     
-            <div class="">
-                <button type="submit" class="btn">Submit</button>
+            <div class="mb-5">
+                <button type="submit" class="btn">Log in</button>
+                <p>New to <span class="love">go!</span>? <a href="/pages/signup.html">Sign up</a> instead </p>
             </div>
         </div>
     
