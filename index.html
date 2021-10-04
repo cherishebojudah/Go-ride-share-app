@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4163ce8400.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/temp.css">
     <title>Go! we'll take you wherever you need to be</title>
 </head>
 <body class="">
     <header class="px-5 border-pry">
-        <nav class="flex justify-between px-5 mx-8">
+        <nav class="top-nav flex justify-between px-5 mx-8">
             <h1 class="logo"><a href="/">go!</a></h1>
-            <div class="flex justify-between">
+            <div class="flex justify-between nav-links">
                 <input class="search-box border-round m-4 py-4 text-lg" type="text" placeholder="Where are you going?">
                 <ul class="nav-items flex ml-2">
                     <li class="border-main p-7 text-bold"><a href="" class="">Driver</a></li>
@@ -22,6 +22,9 @@
                     <li class="border-main p-7 text-bold"><a href="/pages/signup.html">Sign Up</a></li>
                 </ul>
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
     </header>
 
@@ -262,6 +265,6 @@
 
        <div class="flex justify-center">Copyright 2021. Designed with <span class="love p-1"> love </span> by <span class="love p-1"> Cherish</span>.</div>
     </footer>
-    
+    <script src="/js/hamburger.js"></script>
 </body>
 </html>
