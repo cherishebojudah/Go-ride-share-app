@@ -5,15 +5,58 @@
     font-size: 16px;
 }
 
-.top-nav {
-    overflow: hidden;
-    position: relative;
-    padding: 1.5rem;
-    display: flex;
-    justify-content: space-between;
+@media (max-width: 425px) {
 
-}
+    header {
+        max-width: 425px;
+        border: 1px solid grey;
+        background-color: #ffffff;
+    }
 
-.top-nav #nav-links {
-    display: none;
+    .top-nav {
+        overflow: hidden;
+        position: relative;
+        padding: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #nav-links {
+        display: none;
+    }
+
+    .top-nav a {
+        padding: 6px 7px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .top-nav li {
+        list-style-type: none;
+    }
+
+    .top-nav .fa {
+        color: #ff00bf;
+        display: block;
+        font-size: 1.5rem;
+
+    }
+
+    .logo a {
+        font-size: 1.75rem;
+        color: #ff00bf;
+        font-weight: bolder;
+        align-self: center;
+    }
+
+    img {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    main {
+        padding: 1rem;
+    }
 }
