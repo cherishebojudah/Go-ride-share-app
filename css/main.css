@@ -359,10 +359,55 @@ a, ul {
         align-self: center;
     }
 
-    .section_hero img, .section_two img {
-        max-width: 90%;
+    .hero-text {
+        margin-bottom: .5rem;
+        padding: .5rem;
+    }
+
+    .hero-text h1,
+    .section_two_text h2,
+    .section_four h3 {
+        font-size: 1.2rem;
+    }
+
+    .hero-text span,
+    .section_two_text span,
+    .section_four span {
+        font-weight: bolder;
+        font-size: .8rem;
+    }
+
+    .hero-text div button {
+        margin: .5rem .05rem;
+    }
+
+    .section_hero img,
+    .section_two img {
+        max-width: 100%;
         margin: auto;
-        border: 1px solid red;
+    }
+
+    .section_two_text,
+    .section_two_text span,
+    .section_two_text h2,
+    .section_two_text p,
+    .section_four p,
+    .section_four ul,
+    .section_four h3,
+    .section_two_text div {
+        margin-top: .5rem;
+        padding: .1rem .05rem;
+    }
+
+    .section_two_text p,
+    .section_four p,
+    .section_four ul {
+        font-size: .8rem;
+    }
+
+    .section_four ul {
+        list-style-type: none;
+        margin-bottom: .5rem;
     }
 
     .section_three img {
@@ -370,7 +415,6 @@ a, ul {
     }
 
     .section_three div {
-        border: 1px solid green;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -379,6 +423,32 @@ a, ul {
         padding: 1.5rem;
         margin-bottom: .5rem;
         font-size: .75rem;
+    }
+
+    .section_four>div {
+       padding: 1.2rem;
+    }
+
+    .section_four img {
+        max-width: 100%;
+    }
+
+    .section_five >div {
+        border: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 45%;
+        border: 1px solid red;
+        margin: .5rem;
+        font-size: .8rem;
+        padding: .5rem;
+    }
+
+    .card img {
+        max-width: 35%;
     }
 
     
@@ -409,14 +479,5 @@ a, ul {
         flex-direction: column;
     }
 
-
-
-    span {
-        font-weight: bolder;
-        font-size: .8rem;
-    }
-
-    main h1 {
-        font-size: 1.2rem;
-    }
+    
 }
