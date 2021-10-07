@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/*
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -16,210 +11,6 @@ body {
 
 .icon {
     display: none;
-}
-
-@media (max-width: 425px) {
-
-
-    /* header section */
-
-    header {
-        max-width: 425px;
-        border-bottom: 1px solid grey;
-        background-color: #ffffff;
-    }
-
-    .top-nav {
-        overflow: hidden;
-        position: relative;
-        padding: 1.2rem;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    #nav-links {
-        display: none;
-    }
-
-    .top-nav a {
-        padding: 6px 7px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-
-    .top-nav li {
-        list-style-type: none;
-    }
-
-    .top-nav .fa {
-        color: #ff00bf;
-        display: block;
-        font-size: 1.5rem;
-
-    }
-
-    .logo a {
-        font-size: 1.75rem;
-        color: #ff00bf;
-        font-weight: bolder;
-        align-self: center;
-    }
-
-    .hero-text {
-        margin-bottom: .5rem;
-        padding: .5rem;
-    }
-
-    .hero-text h1,
-    .section_two_text h2,
-    .section_four h3,
-    .section_five h3 {
-        font-size: 1.2rem;
-    }
-
-    .hero-text span,
-    .section_two_text span,
-    .section_four span,
-    .section_seven_span,
-    .section_eight_span {
-        font-weight: bolder;
-        font-size: .8rem;
-    }
-
-    .hero-text div button {
-        margin: .5rem .05rem;
-    }
-
-    .section_hero img,
-    .section_two img,
-    .section_four img,
-    .section_seven_img,
-    .section_eight_img {
-        max-width: 100%;
-        margin: auto;
-    }
-
-    .section_two_text,
-    .section_two_text span,
-    .section_two_text h2,
-    .section_two_text p,
-    .section_four p,
-    .section_four ul,
-    .section_four h3,
-    .section_two_text div {
-        margin-top: .5rem;
-        padding: .1rem .05rem;
-    }
-
-    .section_two_text p,
-    .section_four p,
-    .section_four ul {
-        font-size: .8rem;
-    }
-
-    .section_four ul {
-        list-style-type: none;
-        margin-bottom: .5rem;
-    }
-
-    .section_three img {
-        width: 4rem;
-    }
-
-    .section_three div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 1.5rem;
-        margin-bottom: .5rem;
-        font-size: .75rem;
-    }
-
-    .section_seven_span,
-    .section_eight_span {
-        margin: 1rem 0;
-        padding: 1rem 0;
-    }
-
-    .section_five >div {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .section_five_text {
-        padding: .75rem .5rem;
-    }
-
-    .section_five h3 {
-        margin-bottom: .5rem;
-    }
-
-    .card {
-        width: 45.5%;
-        margin: .3rem;
-        font-size: .6rem;
-        padding: .5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card ul {
-        list-style-type: none;
-    }
-
-    .card img {
-        max-width: 35%;
-    }
-
-    
-
-    /* main */
-
-    main {
-       
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .section_hero,
-    .section_two,
-    .section_three,
-    .section_four,
-    .section_five,
-    .section_6,
-    .section_seven,
-    .section_eight,
-    .section-nine {
-        padding: 1rem 1.2rem;
-        display: flex;
-        flex-direction: column;
-    }
-
-    footer,
-    .apps_div {
-        display: flex;
-        background-color: beige;
-        flex-direction: column;
-    }
-
-    .footer_div {
-        display: flex;
-        font-size: .6rem;
-        padding: .85rem;
-    }
-
-    .footer_div ul {
-        list-style-type: none;
-    }
-    
 }
 
 a, ul {
@@ -241,7 +32,7 @@ a, ul {
 } */
 
 /* to be modified */
-.go-business,
+/* .go-business,
 .logo a {
     color: #ff00bf;
     font-size: 2.75rem;
@@ -252,12 +43,12 @@ a, ul {
 .love {
     color: #ff00bf;
     font-weight: bold;
-}
+} */
 
 
 
 /* canvas */
-.bg-main {
+/* .bg-main {
     background-color: #ffffff;
 }
 
@@ -358,7 +149,7 @@ a, ul {
 
 
 /* positioning */
-.flex {
+/* .flex {
     display: flex;
 }
 
@@ -390,7 +181,7 @@ a, ul {
 } */
 
 /* spacing  */
-.pt-1 {
+/* .pt-1 {
     padding-top: .25rem;
 }
 
@@ -510,14 +301,13 @@ a, ul {
 
 /* delete later */
 
-.search-box {
+/* .search-box {
     width: 20rem;
-} 
+}  */
 
-.double_img_width {
-    width: 420px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-
-/* responsiveness */
-

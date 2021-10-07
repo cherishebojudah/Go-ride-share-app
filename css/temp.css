@@ -1,17 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 16px;
-}
+/* responsiveness */
 
 @media (max-width: 425px) {
 
+    /* header section */
+
     header {
         max-width: 425px;
-        border: 1px solid grey;
+        border-bottom: 1px solid grey;
         background-color: #ffffff;
     }
+
 
     .top-nav {
         overflow: hidden;
@@ -19,7 +17,6 @@
         padding: 1.2rem;
         display: flex;
         justify-content: space-between;
-
     }
 
     #nav-links {
@@ -51,12 +48,159 @@
         align-self: center;
     }
 
-    img {
-        max-width: 90%;
+    .hero-text {
+        margin-bottom: .5rem;
+        padding: .5rem;
+    }
+
+    .hero-text h1,
+    .section_two_text h2,
+    .section_four h3,
+    .section_five h3 {
+        font-size: 1.2rem;
+    }
+
+    .hero-text span,
+    .section_two_text span,
+    .section_four span,
+    .section_seven_span,
+    .section_eight_span {
+        font-weight: bolder;
+        font-size: .8rem;
+    }
+
+    .hero-text div button {
+        margin: .5rem .05rem;
+    }
+
+    .section_hero img,
+    .section_two img,
+    .section_four img,
+    .section_seven_img,
+    .section_eight_img {
+        max-width: 100%;
         margin: auto;
     }
 
-    main {
-        padding: 1rem;
+    .section_two_text,
+    .section_two_text span,
+    .section_two_text h2,
+    .section_two_text p,
+    .section_four p,
+    .section_four ul,
+    .section_four h3,
+    .section_two_text div {
+        margin-top: .5rem;
+        padding: .1rem .05rem;
     }
+
+    .section_two_text p,
+    .section_four p,
+    .section_four ul {
+        font-size: .8rem;
+    }
+
+    .section_four ul {
+        list-style-type: none;
+        margin-bottom: .5rem;
+    }
+
+    .section_three img {
+        width: 4rem;
+    }
+
+    .section_three div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem;
+        margin-bottom: .5rem;
+        font-size: .75rem;
+    }
+
+    .section_seven_span,
+    .section_eight_span {
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+
+    .section_five >div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section_five_text {
+        padding: .75rem .5rem;
+    }
+
+    .section_five h3 {
+        margin-bottom: .5rem;
+    }
+
+    .card {
+        width: 45.5%;
+        margin: .3rem;
+        font-size: .6rem;
+        padding: .5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card ul {
+        list-style-type: none;
+    }
+
+    .card img {
+        max-width: 35%;
+    }
+
+    
+
+    /* main */
+
+    main {
+       
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_hero,
+    .section_two,
+    .section_three,
+    .section_four,
+    .section_five,
+    .section_6,
+    .section_seven,
+    .section_eight,
+    .section-nine {
+        padding: 1rem 1.2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer,
+    .apps_div {
+        display: flex;
+        background-color: beige;
+        flex-direction: column;
+    }
+
+    .footer_div {
+        display: flex;
+        font-size: .6rem;
+        padding: .85rem;
+    }
+
+    .footer_div ul {
+        list-style-type: none;
+    }
+    
 }
+
