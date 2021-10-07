@@ -15,6 +15,22 @@ img {
     max-width: 100%;
 }
 
+.img-small {
+    width: 20%;
+}
+
+.btn {
+    border: 1px solid #8b37ff;
+    padding: 1rem 1.2rem;
+    border-radius: 2rem;
+    font-size: .85rem;
+    font-weight: bold;
+} 
+
+.btn-pry {
+    background-color: #8b37ff;
+}
+
 
 /* header section */
 
@@ -60,10 +76,26 @@ header {
     align-self: center;
 }
 
-/* main section */
 /* positioning */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
 
 /* canvas */
+
 .text-small {
     font-size: .8rem;
 }
@@ -76,7 +108,19 @@ header {
     font-weight: bold;
 }
 
+.text-white {
+    color: #ffffff;
+}
+
 /* spacing */
+.p-1 {
+    padding: .25rem;
+}
+
+.p-2 {
+    padding: .5rem;
+}
+
 .p-4 {
     padding: 1rem;
 }
@@ -85,10 +129,31 @@ header {
     padding-bottom: 1rem;
 }
 
-.w-90 {
-    width: 90vw;
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .m-auto {
     margin: auto;
+}
+
+.mt-2 {
+    margin-top: .5rem;
+}
+
+.mb-2 {
+    margin-bottom: .5rem;
+}
+
+.mb-3 {
+    margin-bottom: .75rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.w-90 {
+    width: 90vw;
 }
