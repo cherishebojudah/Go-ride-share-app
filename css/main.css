@@ -344,7 +344,7 @@ img {
     } */
 
     .ride-section > div > img {
-        width: 60% !important;
+        width: 70% !important;
         height: 100% !important;
     }
 
@@ -369,9 +369,28 @@ img {
         margin: .5rem 1rem;
     }
 
+    .ride-section > div,
+    .safety-tips > div,
+    .vaccine-access > div {
+        width: 45vw;
+        display: flex;
+        justify-content: center !important;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .ride-section > div > span {
+        font-size: 1rem;
+    }
+
+    .ride-section > div > h3,
+    .services-section > div > h3 {
+        font-size: 2.25rem;
+    }
+
     .estimates-section > div > span {
         font-size: 2rem;
-        padding: .5rem;
+        padding: 1rem 1.5rem;
         font-weight: bold;
     }
 
@@ -380,7 +399,7 @@ img {
         border-radius: .25rem;
         border: 1px solid grey;
         width: 18rem;
-        margin: .5rem;
+        margin: .5rem 1.2rem;
     }
 
     .safety-tips {
@@ -395,6 +414,23 @@ img {
 
     .safety-tips > div > img {
         width: 75% !important;
+    }
+
+    .business-section {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .business-section > div > h3 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .business-section > div > p {
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
     }
 
     .footer-nav {
