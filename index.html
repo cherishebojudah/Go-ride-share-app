@@ -13,13 +13,13 @@
         <nav class="top-nav">
             <h1 class="logo"><a href="/">go!</a></h1>
             <div id="nav-links" class="flex flex-column">
-                <input class="" type="text" placeholder="Where are you going?">
+                <input class="search-box" type="text" placeholder="Where are you going?">
                 <ul class="nav-items">
-                    <li class="border-main text-bold"><a href="" class="">Driver</a></li>
-                    <li class="border-main p-7 text-bold"><a href="">Rider</a></li>
-                    <li class="border-main p-7 text-bold"><a href="">Business</a></li>
-                    <li class="border-main p-7 text-bold"><a href="/pages/login.html">Login</a></li>
-                    <li class="border-main p-7 text-bold"><a href="/pages/signup.html">Sign Up</a></li>
+                    <li class="text-bold"><a href="" class="">Driver</a></li>
+                    <li class="text-bold"><a href="">Rider</a></li>
+                    <li class="text-bold"><a href="">Business</a></li>
+                    <li class="text-bold"><a href="/pages/login.html">Login</a></li>
+                    <li class="text-bold"><a href="/pages/signup.html">Sign Up</a></li>
                 </ul>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -28,9 +28,9 @@
         </nav>
     </header>
 
-    <main class="flex flex-column justify-center">
-        <div class="p-4 m-4">
-            <div class="pb-4">
+    <main class="flex flex-column">
+        <div class="hero-section p-4 m-4 ">
+            <div class="text-area pb-4 text-center">
                 <span class="pb-4 text-small text-bold">READY WHEN YOU ARE</span>
                 <h1 class="pb-4">Hop in. Crack a window. Let's get back out there.</h1>
                 <div class="pb-4">
@@ -38,19 +38,17 @@
                     <button class="btn bg-main">Sign up to ride</button>
                 </div>
             </div>
-            <div class="pb-4">
+            <div class="img-area pb-4">
                 <img class="" style="width: 500px;" src="./img/home_hero_1_tile.jpg" alt="woman_in_cab">
             </div>
         </div>
 
-        <div class="p-4 m-4">
-            <div class="pb-4">
+        <div class="drive-section p-4 m-4">
+            <div class="img-section pb-4">
                 <img class="border-rnd-right" style="width: 400px;" src="./img/driver_section_2x.jpg" alt="woman_in_cab">
             </div>
-            <div class="pb-4">
-                <div class="section_two_text p-7">
-                    
-                    <span class="pb-4 text-small text-bold">STAY ON THE GO</span>
+            <div class="text-center pb-4">   
+                <span class="pb-4 text-small text-bold">STAY ON THE GO</span>
                     <h2 class="pb-4">Set your own hours. Earn on your own terms.</h2>
                     <p class="pb-4">Maybe you’re saving up for school. Or keeping flexible hours to spend more time with your family. It’s a great time to get in the driver’s seat, connect with your community, and earn a little extra cash. Plus, you can tell people you’ve got the best boss in town: you.</p>
                     <div class="pb-4">
@@ -68,15 +66,14 @@
                         <span class="text-bold">Get paid promptly</span>
                         <p class="">Cash out your earnings whenever you want with Express Pay and Go direct.</p>
                     </div>
-                    <div class="pb-4 mt-2">
-                        <button class="btn btn-pry mt-2 text-white">Apply to drive</button>
-                        <a class="text-bold text-small">How driver pay works</a>
+                    <div class="drive-btns pb-4 mt-2 flex flex-column justify-center">
+                        <button class="btn btn-pry mt-2 mb-3 text-white">Apply to drive</button>
+                        <a class="text-bold mt-2 text-small">How driver pay works</a>
                     </div>
-                </div>
             </div>
         </div>
 
-        <div class="p-4 m-4">
+        <div class="testimonial-section p-4 m-4">
             <div class="mb-4 p-2 flex flex-column justify-center text-small text-center">
                 <img class="img-smaller mb-2" src="./img/harold_driver.jpg" alt="">
                 <p class="px-4"><q>As a student, it’s hard to complete my class work around a schedule. I started driving more with Lyft and realized it was the perfect opportunity to make money and work on my own time! Driving with go gives me freedom in my schedule to focus on school, which is my main priority.</q></p>
@@ -103,8 +100,8 @@
             </div>
         </div>
 
-        <div class="bg-sec p-4">
-            <div class="flex flex-column p-2"> 
+        <div class="ride-section bg-sec p-4">
+            <div class="flex flex-column p-2 justify-center text-center"> 
                 <span class="pb-2 text-small text-bold">RIDE WITH GO!</span>
                 <h3 class="text-bolder pb-2">Ready, set, go! in just a few quick taps.</h3>
                 <p class="pb-4">Whether you're following your heart or your busy schedule, we'll get you where you need to go.</p>
@@ -122,12 +119,12 @@
             </div>
         </div>
 
-        <div class="bg-sec p-4">
-            <div class="flex flex-column pb-4">
+        <div class="services-section bg-sec p-4">
+            <div class="flex flex-column pb-4 text-center">
                 <h3 class="p-2">Ride. Bike. Scoot. Go bananas.</h3>
                 <p class="p-2">We've got options to get you where you're going. Choose a ride that suits your mood and budget.</p>
             </div>
-            <div class="flex flex-row flex-wrap">
+            <div class="cards flex flex-row flex-wrap mb-4">
                 <div class="bg-main w-40 m-2 flex flex-column box-shadow border-rnd p-2 justify-center">
                     <span class="text-small text-bold">Rides</span>
                     <img class="img-small" src="/img/car.jpeg" alt="">
@@ -163,7 +160,7 @@
             </div>
         </div>
 
-        <div class="bg-blue p-4">
+        <div class="estimates-section bg-blue p-4">
             <div class="p-2 text-white flex flex-column"><span>Ready to roll?</span> <span>Get a go estimate.</span> </div>
             <div class="p-2">
                 <input class="py-2 px-4 my-2" type="text" placeholder="enter a pickup location">
@@ -172,35 +169,35 @@
             </div>
         </div>
 
-        <div class="">
-            <div class="">
-                <span class="">SAFETY FIRST</span>
-                <h4 class="mb-5 py-4 bolder-font">How to show up like a best stranger</h4>
-                <p class="py-4 pl-10 mb-5">Every ride should feel safe and comfy to everyone. A few simple ground rules can help make that happen for all drivers and riders. Read up, mask up, and crack a window to enjoy the breeze in your hair.</p>
-                <div class="mt-1">
+        <div class="safety-tips p-4 m-4">
+            <div class="my-2 p-4 text-center">
+                <span class="text-bold text-small mb-4">SAFETY FIRST</span>
+                <h3 class="pb-4">How to show up like a best stranger</h3>
+                <p class="mb-4">Every ride should feel safe and comfy to everyone. A few simple ground rules can help make that happen for all drivers and riders. Read up, mask up, and crack a window to enjoy the breeze in your hair.</p>
+                <div class="flex flex-column justify-center pb-4">
                     <span class="btn btn-pry"><a class="text-white" href="">Learn about safety</a></span>
-                    <span class="ml-4 bold-font"> <a href="">Community guidelines</a></span>
+                    <span class="bold-font py-2"> <a href="">Community guidelines</a></span>
                 </div>
             </div>
-            <div class="section_seven_div w-2 justify-center">
-                <div><img class="section_seven_img double_image_width" src="/img/Image_for_Homepage_Safety_Module.jpg" alt=""></div>
+            <div class="my-2">
+                <img class="section_seven_img double_image_width" src="/img/Image_for_Homepage_Safety_Module.jpg" alt="">
             </div>
         </div>
 
-        <div class="section_eight p-16 ">
-            <div class="section-eight-div w-2 p-7">
-                <img class="section_eight_img border-rnd-left" src="/img/Driver_Vaccine_Access.jpg" style="width: 420px;" alt="Driver_Vaccine_Access">
+        <div class="vaccine-access p-4 m-4">
+            <div class="pb-4">
+                <img class="border-rnd-left" src="/img/Driver_Vaccine_Access.jpg" alt="Driver_Vaccine_Access">
             </div>
-            <div class="section-eight-div w-2 p-7">
-                <span class="section_eight_span mb-5 py-4 bold-font">VACCINE ACCESS</span>
-                <h4 class="mb-5 py-4 bolder-font">Getting the vaccine starts with getting to the vaccine</h4>
-                <p class="py-4 pr-10 mb-5">The pandemic has been tough on all of us, but it’s been particularly hard on communities that are underserved by public transit, healthcare, and other basic services. It’s our duty to help the best way we can: with rides. We’re working with partners and community members to help provide access to transportation to vaccine sites for people who need it. So everyone can say, “Sorry, COVID, our ride’s here.”</p>
-                <span class="ml-4 bold-font"><a href="">Learn more about vaccine access</a></span>
+            <div class="my-2 p-4 text-center">
+                <span class="pb-4 text-bold text-small">VACCINE ACCESS</span>
+                <h3 class="pb-4">Getting the vaccine starts with getting to the vaccine</h3>
+                <p class="pb-4">The pandemic has been tough on all of us, but it’s been particularly hard on communities that are underserved by public transit, healthcare, and other basic services. It’s our duty to help the best way we can: with rides. We’re working with partners and community members to help provide access to transportation to vaccine sites for people who need it. So everyone can say, “Sorry, COVID, our ride’s here.”</p>
+                <span class="text-bold"><a href="">Learn more about vaccine access</a></span>
             </div>
         </div>
 
-        <div class="section-nine p-16 flex justify-center">
-            <div class="flex justify-center flex-column align">
+        <div class="business-section p-4 m-4">
+            <div class="flex justify-center flex-column text-center">
                 <h3 class="go-business p-1 mb-5">go! business</h3>
                 <h5 class="bolder-font mb-5 p-1">We help you move your<span> Variable</span></h5>
                 <p>Affordable transportation solutions, effortless payments, and getting all the right people to all the right places. So you can get work done.</p>
@@ -208,11 +205,11 @@
             </div>
         </div>
     </main>
-    <footer class="p-16 bg-footer">
-       <div class="footer_div p-16 flex ">
-            <div class="w-4">
-                <h5 class="mb-5 bold-font">DRIVER</h5>
-                <ul class="m-1">
+    <footer class="bg-sec">
+       <div class="footer-nav">
+            <div class="">
+                <h5 class="mb-4">DRIVER</h5>
+                <ul class="">
                     <li class="mb-3">Become a Driver</li>
                     <li class="mb-3">Earnings</li>
                     <li class="mb-3">Cities</li>
@@ -227,8 +224,8 @@
                     <li class="mb-3">Hub</li>
                 </ul>
             </div>
-            <div class="w-4">
-                <h5 class="mb-5 bold-font">RIDER</h5>
+            <div class="">
+                <h5 class="mb-4">RIDER</h5>
                 <ul class="m-1">
                     <li class="mb-3">Sign up to ride</li>
                     <li class="mb-3">Fare Estimate</li>
@@ -247,7 +244,7 @@
                 </ul>
             </div>
             <div class="w-4">
-                <h5 class="mb-5 bold-font">go!</h5>
+                <h5 class="mb-4">go!</h5>
                 <ul class="m-1">
                     <li class="mb-3">Careers</li>
                     <li class="mb-3">Go!Up</li>
@@ -269,7 +266,7 @@
             </div>
        </div>
 
-       <div class="flex justify-center">Copyright 2021. Designed with <span class="love p-1"> love </span> by <span class="love p-1"> Cherish</span>.</div>
+       <div class="copyright flex justify-center">Copyright 2021. Designed with <span class="love p-1"> love </span> by <span class="love p-1"> Cherish</span>.</div>
     </footer>
     <script src="/js/hamburger.js"></script>
 </body>

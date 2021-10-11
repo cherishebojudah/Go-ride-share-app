@@ -1,3 +1,299 @@
+/*
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.error-block {
+    font-size: 0.5rem;
+    color: red;
+}
+
+.icon {
+    display: none;
+}
+
+a, ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000000;
+}
+
+.section_three img {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.card {
+    width: 80%;
+    height: 20vw;
+    border-radius: .75rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+} */
+
+/* to be modified */
+/* .go-business,
+.logo a {
+    color: #ff00bf;
+    font-size: 2.75rem;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.love {
+    color: #ff00bf;
+    font-weight: bold;
+} */
+
+
+
+/* canvas */
+/* .bg-main {
+    background-color: #ffffff;
+}
+
+.bg-sec {
+    background-color: #ebebff;
+}
+
+.border-pry {
+    border-bottom: 1px solid lightgrey;
+}
+
+.bg-blue {
+    background-color: #2B1B81;
+}
+
+.bg-footer {
+    background-color: #f2f2f8;
+}
+
+.border-round {
+    border-radius: .5rem;
+    border: 1px solid grey;
+    padding: .8rem;
+}
+
+.border-rnd-right {
+    border-top-right-radius: 50%;
+}
+
+.border-rnd-left {
+    border-top-left-radius: 50%;
+}
+
+.border-main {
+    border-left: 1px solid lightgrey;
+}
+
+.text-light {
+    opacity: 0.5;
+}
+
+.text-spaced {
+    line-height: 1.4;
+    font-stretch: expanded;
+}
+
+.text-small {
+    font-size: .85rem;
+}
+
+.text-medium {
+    font-size: 1.35rem;
+}
+
+.text-lg {
+    font-size: 1rem;
+}
+
+.text-lgr {
+    font-size: 5.2rem;
+}
+
+.text-bold {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.bolder-font {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text-bolder {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.text-white {
+    color: #ffffff;
+}
+*/
+
+
+/* positioning */
+/* .flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.justify-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justify-right {
+    justify-content: end;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+} */
+
+/* spacing  */
+/* .pt-1 {
+    padding-top: .25rem;
+}
+
+.ml-1 {
+    margin-left: .25rem;
+}
+
+.ml-16 {
+    margin-left: 4rem;
+}
+
+.mb-3 {
+    margin-bottom: .75rem;
+}
+
+.mb-5 {
+    margin-bottom: 1.25rem;
+}
+
+.p-1 {
+    padding: .25rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.p-7 {
+    padding: 1.75rem;
+}
+
+.p-16 {
+    padding: 4rem;
+}
+
+.px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.pl-10 {
+    padding-right: 2.5rem;
+}
+
+.pr-10 {
+    padding-right: 2.5rem;
+}
+.mt-1 {
+    margin-top: .25rem;
+}
+
+.mt-10 {
+    margin-top: 2.5rem;
+}
+
+.m-1 {
+    margin: .25rem;
+}
+
+.m-4 {
+    margin: 1rem;
+}
+
+.ml-2 {
+    margin-left: .5rem;
+}
+
+.ml-4 {
+    padding-left: 1rem;
+}
+
+.mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.w-1 {
+    width: 100vw;
+}
+
+.w-2 {
+    width: 50vw;
+}
+
+.w-4 {
+    width: 25vw;
+}
+
+.w-40 {
+    width: 40vw;
+}
+
+.w-60 {
+    width: 60vw;
+} */
+
+
+/* delete later */
+
+/* .search-box {
+    width: 20rem;
+}  */
+
+
 /* responsiveness */
 
 @media (max-width: 425px) {
@@ -38,7 +334,6 @@
         color: #ff00bf;
         display: block;
         font-size: 1.5rem;
-
     }
 
     .logo a {

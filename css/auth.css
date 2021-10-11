@@ -1,6 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
 }
 
 .error-block {
@@ -14,14 +18,22 @@ label {
 
 input,
 select {
-   width: 80%;
+   width: 90%;
    padding: .5rem;
    border: none;
    border-bottom: 1px solid #000000;
 }
 
+form {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .75rem;
+}
+
 .div-form {
-    width: 80%;
+    width: 90%;
 }
 
 .love {
@@ -46,8 +58,8 @@ select {
 }
 
 .btn {
-    background-color: #ff00bf;
-    border: #ff00bf;
+    background-color: #8b37ff;
+    border: #8b37ff;
     /* background-color: #8b37ff; 
     border: 1px solid #8b37ff; */
     padding: 1.1rem 1.5rem;
@@ -87,4 +99,21 @@ select {
 
 .w-3 {
     width: 30vw;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    form {
+        width: 45vw !important;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    body {
+        padding: 1rem !important;
+    }
+    form {
+        width: 30vw !important;
+    }
+    
 }
