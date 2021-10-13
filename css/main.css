@@ -7,6 +7,14 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.ride-section,
+.services-section,
+.estimates-section {
+    max-width: 100% !important;
 }
 
 /* base utilities */
@@ -25,6 +33,11 @@ body {
 
 .btn-pry {
     background-color: #8b37ff;
+}
+
+.love {
+    color: rgb(204, 14, 109);
+    font-weight: bold;
 }
 
 
@@ -94,6 +107,10 @@ li {
     text-align: center;
 }
 
+footer {
+    display: none;
+}
+
 /* canvas */
 
 .text-smaller {
@@ -141,7 +158,7 @@ li {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .img-small {
@@ -164,6 +181,10 @@ img {
 
 .p-4 {
     padding: 1rem;
+}
+
+.p-6 {
+    padding: 1.5rem;
 }
 
 .pb-2 {
@@ -248,6 +269,10 @@ img {
         font-size: 4rem !important;
     }
 
+    .icon {
+        display: none !important;
+    }
+
     .top-nav {
         display: flex !important;
         justify-content: space-between !important;
@@ -269,6 +294,8 @@ img {
     .nav-items li {
         border-left: 1px solid lightgrey;
         padding: 1.2rem;
+        display: flex;
+        align-items: center;
     }
 
     .search-box {
@@ -446,10 +473,4 @@ img {
     .copyright {
         padding: 1.5rem;
     }
-
-    .love {
-        color: rgb(204, 14, 109);
-        font-weight: bold;
-    }
-
 }
